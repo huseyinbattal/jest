@@ -1,12 +1,13 @@
 const { fetchData } = require("./asyncFunc");
 
-beforeAll(() => {
-    console.log("Before All")
-})
+// beforeAll(() => {
+//     console.log("Before All");
+//   });
 
-afterAll(() => {
-    console.log("After All")
-})
+
+// afterAll(() => {
+//   console.log("After All");
+// });
 
 
 
