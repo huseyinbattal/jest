@@ -1,7 +1,7 @@
 const fetchData = (callback) => {
   return new Promise((resolve) => {
     setTimeout(() => {
-      resolve("Merhaba1");
+      resolve("Merhaba");
     }, 3000);
   });
 };
