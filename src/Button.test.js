@@ -12,7 +12,7 @@ test("Button in Document", () => {
 });
 
 test("Button have Text", () => {
-  render(<Button id="btn" text={"hi"} />);
+  render(<Button id="btn" text="hi" />);
   const element = screen.getByTestId("btn");
   expect(element).toHaveTextContent("hi");
 });
