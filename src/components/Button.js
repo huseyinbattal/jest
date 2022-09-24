@@ -1,9 +1,11 @@
-import React from 'react'
+import React from "react";
 
-function Button() {
+function Button(props) {
   return (
-    <button>merhaba</button>
-  )
+    <>
+      <button data-testid={props.id}>Merhaba</button>
+    </>
+  );
 }
 
-export default Button
+export default Button;
