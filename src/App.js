@@ -1,10 +1,9 @@
-import Button from './components/Button';
+import Button from "./components/Button";
 
 function App() {
   return (
     <div>
-      
-      <Button text="Hello"/>
+      <Button text="Hello" />
     </div>
   );
 }

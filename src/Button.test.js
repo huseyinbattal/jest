@@ -33,9 +33,14 @@ test("Button have Style", () => {
 
 test("Button Click Test", () => {
   render(
-    <Button id="btn" className="customBtn" style={{ backgroundColor: "red" }} onClick={clickMock} />
+    <Button
+      id="btn"
+      className="customBtn"
+      style={{ backgroundColor: "red" }}
+      onClick={clickMock}
+    />
   );
   const element = screen.getByTestId("btn");
   fireEvent.click(element);
-  expect(clickMock).toHaveBeenCalledTimes(1)
+  expect(clickMock).toHaveBeenCalledTimes(1);
 });
