@@ -3,7 +3,13 @@ import React from "react";
 function Button(props) {
   return (
     <>
-      <button data-testid={props.id}>Merhaba</button>
+      <button
+        data-testid={props.id}
+        className={props.className}
+        style={props.style}
+      >
+        {props.text}
+      </button>
     </>
   );
 }
